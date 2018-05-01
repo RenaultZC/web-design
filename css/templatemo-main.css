@@ -724,19 +724,20 @@ nav a:hover::before {
 	width:  auto;
 	height: 30px;
 	border-radius: 20px;
+	/*background-color: rgba(255,255,255,0.15);*/
 	color: white;
 	font-size: 15px;
 	line-height: 30px;
 	position: absolute;
 	padding:0 15px;
 	top : 0;
-	white-space: nowrap;
 	opacity: 0;
+	white-space: nowrap;
+	/*animation: letort 3.4s linear infinite;*/
 }
 
-.slides .slide .fifth-content  {
+.fifth-content #contact {
 	padding: 50px 50px 50px 50px;
-	overflow: hidden;
 }
 
 .fifth-content input {
@@ -965,9 +966,9 @@ nav a:hover::before {
 		opacity: 0;
 		transform: translateX(-100%);
 	}to{
-		opacity: 1;
-		transform: translateX(0);
-		 }
+		 opacity: 1;
+		 transform: translateX(0);
+	 }
 }
 @keyframes right {
 	from{
