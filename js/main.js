@@ -118,7 +118,6 @@ jQuery(document).ready(function($) {
                 type : 'GET',
                 dataType : 'json' ,
                 success : function(res) {
-                    debugger;
                     if( res.error ) {
                         // alert('留言失败');
                     }else {
@@ -215,7 +214,6 @@ jQuery(document).ready(function($) {
         }
         $("#page5").click(function () {
             var mode = $(".yongxing .mode");
-            // debugger
             var i;
             for(i = 0;i<mode.length;i++){
                 if(i%2){
