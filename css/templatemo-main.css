@@ -724,7 +724,6 @@ nav a:hover::before {
 	width:  auto;
 	height: 30px;
 	border-radius: 20px;
-	/*background-color: rgba(255,255,255,0.15);*/
 	color: white;
 	font-size: 15px;
 	line-height: 30px;
@@ -733,7 +732,6 @@ nav a:hover::before {
 	top : 0;
 	opacity: 0;
 	white-space: nowrap;
-	/*animation: letort 3.4s linear infinite;*/
 }
 
 .fifth-content #contact {
@@ -979,11 +977,11 @@ nav a:hover::before {
 		 transform: translateX(0);
 	 }
 }
-.left{
+.mode-left{
 	animation: left 1.5s linear;
 }
 
-.right{
+.mode-right{
 	animation: right 1.5s linear;
 }
 .col-md-5{

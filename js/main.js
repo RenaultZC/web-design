@@ -147,7 +147,7 @@ jQuery(document).ready(function($) {
                     } else {
                         window.infor = res.result;
                         // console.log(window.infor);
-                        danMu();
+                        danMu(0,0);
                     }
                 },
                 error : function(res) {
@@ -160,7 +160,7 @@ jQuery(document).ready(function($) {
         var oBarrage = document.getElementById('barrage');
 
         var timer = null;
-        function danMu(i = 0,time = 0) {
+        function danMu(i ,time ) {
             var st = 4 + parseInt(window.infor[i].message.length/10);
                 setTimeout(function () {
                     oBarrage.style.animation = "";
@@ -217,9 +217,9 @@ jQuery(document).ready(function($) {
             var i;
             for(i = 0;i<mode.length;i++){
                 if(i%2){
-                    mode[i].className = "mode right";
+                    mode[i].className = " mode mode-right";
                 }else{
-                    mode[i].className = "mode left";
+                    mode[i].className = "mode mode-left";
                 }
             }
             setTimeout(function () {
