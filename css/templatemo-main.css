@@ -993,3 +993,6 @@ nav a:hover::before {
 .col-md-6{
 	width: 50%;
 }
+.fifth-content{
+	overflow: hidden;
+}
